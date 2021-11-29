@@ -1,0 +1,128 @@
+@media (max-width: 900px) {
+      .regular {
+        display: none;
+      }
+
+      .lazy {
+        display: block;
+      
+      }
+      .slick-slide {
+        margin: 0px 0px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        transition: all ease-in-out .3s;
+        opacity: 100;
+        
+      }
+      .slick-slide img {
+        max-width: 400px;
+       
+      }
+     
+      
+      
+  
+   
+
+}
+
+
+@media (min-width: 900px) {
+      .regular {
+        display: block;
+      }
+
+      .lazy {
+        display: none;
+        
+      
+      }
+
+      .slick-slide {
+        margin: 0px 10px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        transition: all ease-in-out .3s;
+        opacity: 100;
+        
+      }
+
+
+   
+
+}
+
+
+#tratamentos {
+  display: block;
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  }
+  
+
+.tratamentos-titulo {
+  width: 100%;
+  height: 60PX;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.tratamentos-titulo p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 35%;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+  text-align: center;
+  color: #D2AE6D;
+}
+  .slider {
+      width: 75%;
+      margin: 30px auto;
+      background-color: rgb(255, 255, 255);
+  }
+
+ 
+
+  .slick-slide img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: #D2AE6D;
+  }
+
+
+  
+  .slick-active {
+    opacity: 100;
+  }
+
+  .slick-current {
+    opacity: 100;
+  }
+
+  .text-tratamentos-title {
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    width: 100%; word-wrap: break-word;
+    font-size: 17px;
+    color: rgb(151, 126, 42);
+  }
+
+  .text-tratamentos{
+    line-height: 1.5em;
+    margin-top: 15px;
+    font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    width: 100%; word-wrap: break-word;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+  }
+
