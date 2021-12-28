@@ -1,0 +1,464 @@
+.comentarios {
+  display: grid;
+  width: 100%;
+  height: 1250px;
+  min-height: 150px;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  grid-template-columns: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("ground2.gif");
+  background-size: cover;
+}
+
+.comentarioA {
+  border: 1px solid rgb(236, 236, 236);
+  background-image: url(../img/dots.svg.png);
+  background-size: 40px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  height: auto;
+  height: 80%;
+  max-height: 330px;
+  width: 90%;
+  max-width: 700px;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 13px 10px rgb(188, 188, 188);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.comentarioA:hover {
+  top: 48%;
+  transition: 0.4s;
+}
+
+.estrelas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.estrelas img {
+  width: 20px;
+  margin-right: 2px;
+}
+
+.estrelas img:last-child {
+  margin-right: 0;
+}
+
+.comentarioB {
+  border: 1px solid rgb(236, 236, 236);
+  background-image: url(../img/dots.svg.png);
+  background-size: 40px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  height: auto;
+  height: 80%;
+  max-height: 330px;
+  width: 90%;
+  max-width: 700px;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 13px 10px rgb(188, 188, 188);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.comentarioB:hover {
+  top: 48%;
+  transition: 0.4s;
+}
+
+.comentarioC {
+  border: 1px solid rgb(236, 236, 236);
+  background-image: url(../img/dots.svg.png);
+  background-size: 40px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  height: auto;
+  height: 80%;
+  max-height: 330px;
+  width: 90%;
+  max-width: 700px;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 13px 10px rgb(188, 188, 188);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.comentarioC:hover {
+  top: 48%;
+  transition: 0.4s;
+}
+
+.titulocoment {
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 14% 40% 46%;
+  grid-template-rows: auto;
+  height: 100%;
+  width: 90%;
+}
+
+.fotocoment {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fotocoment img {
+  width: 100%;
+}
+
+.nomecoment {
+  display: flex;
+  margin-left: 5px;
+  height: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  color: rgb(121, 121, 121);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.coment {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 95%;
+  padding-top: 5px;
+}
+
+.coment p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(111, 111, 111);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  line-height: 1.2rem;
+}
+
+@media screen and (min-width: 550px) {
+  .comentarios {
+    display: grid;
+    width: 100%;
+    height: auto;
+    min-height: 900px;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-template-columns: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+  }
+  .comentarioA {
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(../img/dots.svg.png);
+    background-size: 40px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: auto;
+    height: 80%;
+    max-height: 230px;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 13px 10px rgb(188, 188, 188);
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .comentarioA:hover {
+    top: 48%;
+    transition: 0.4s;
+  }
+  .comentarioB {
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(../img/dots.svg.png);
+    background-size: 40px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: auto;
+    height: 80%;
+    max-height: 230px;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 13px 10px rgb(188, 188, 188);
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .comentarioB:hover {
+    top: 48%;
+    transition: 0.4s;
+  }
+  .comentarioC {
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(../img/dots.svg.png);
+    background-size: 40px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: auto;
+    height: 80%;
+    max-height: 230px;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 13px 10px rgb(188, 188, 188);
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .comentarioC:hover {
+    top: 48%;
+    transition: 0.4s;
+  }
+  .titulocoment {
+    display: grid;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 14% 40% 46%;
+    grid-template-rows: auto;
+    height: 100%;
+    width: 90%;
+  }
+  .fotocoment {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .fotocoment img {
+    width: 100%;
+  }
+  .nomecoment {
+    display: flex;
+    margin-left: 5px;
+    height: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: rgb(121, 121, 121);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .coment {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 95%;
+    padding-top: 5px;
+  }
+  .coment p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 111);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    line-height: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .comentarios {
+    display: grid;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: auto;
+  }
+  .comentarioA {
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(../img/dots.svg.png);
+    background-size: 40px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: auto;
+    max-height: 270px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 13px 10px rgb(188, 188, 188);
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .comentarioA:hover {
+    top: 48%;
+    transition: 0.4s;
+  }
+  .comentarioB {
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(../img/dots.svg.png);
+    background-size: 40px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: auto;
+    height: 70%;
+    max-height: 270px;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 13px 10px rgb(188, 188, 188);
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .comentarioB:hover {
+    top: 48%;
+    transition: 0.4s;
+  }
+  .comentarioC {
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(../img/dots.svg.png);
+    background-size: 40px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: auto;
+    height: 70%;
+    max-height: 270px;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 13px 10px rgb(188, 188, 188);
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .comentarioC:hover {
+    top: 48%;
+    transition: 0.4s;
+  }
+  .titulocoment {
+    display: grid;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 14% 40% 46%;
+    grid-template-rows: auto;
+    height: 100%;
+    width: 90%;
+  }
+  .fotocoment {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .fotocoment img {
+    width: 100%;
+  }
+  .nomecoment {
+    display: flex;
+    margin-left: 5px;
+    height: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: rgb(121, 121, 121);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .coment {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 95%;
+    padding-top: 5px;
+  }
+  .coment p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 111);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    line-height: 1.2rem;
+  }
+}
