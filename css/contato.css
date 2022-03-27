@@ -39,12 +39,12 @@
   width: 100%;
   height: auto;
   justify-content: flex-end;
-  gap: 25%;
+  gap: 16%;
 }
 
 @media (max-width: 400px) {
   .botao-mais {
-    gap: 15%;
+    gap: 3%;
   }
 }
 
@@ -97,6 +97,7 @@
 
 .modal-content {
   display: flex;
+  height: 85vh;
   justify-content: space-evenly;
   padding: 20px;
   flex-wrap: wrap;

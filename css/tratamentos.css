@@ -71,8 +71,9 @@
     "Verdana";
     width: 100%;
     word-wrap: break-word;
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(151, 126, 42);
+    line-height: 1.2em;
 }
 .text-tratamentos {
     line-height: 1.5em;
@@ -102,7 +103,7 @@
         "Verdana";
         width: 100%;
         word-wrap: break-word;
-        font-size: 13px;
+        font-size: 12px;
         color: rgb(102, 102, 102);
     }
 }
