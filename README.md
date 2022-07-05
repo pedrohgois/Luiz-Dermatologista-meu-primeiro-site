@@ -1,5 +1,4 @@
-# Meu primeiro site
-# Site desenvolvido para médico dermatologista
+# Site desenvolvido para consultório médico
 <br>
 <br>
 
